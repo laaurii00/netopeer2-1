@@ -17,16 +17,16 @@
 #define _NP2_TEST_CONFIG_H_
 
 /* repository root dir */
-#define NP_ROOT_DIR "/home/netconf/netopeer2-1"
+#define NP_ROOT_DIR "/home/netconf/netopeer2"
 
 /* binary dir */
-#define NP_BINARY_DIR "/home/netconf/netopeer2-1/build"
+#define NP_BINARY_DIR "/home/netconf/netopeer2/build"
 
 /* path to put test-specific directory into and to serve as test SR repository */
-#define NP_TEST_DIR "/home/netconf/netopeer2-1/build/repos"
+#define NP_TEST_DIR "/home/netconf/netopeer2/build/repos"
 
 /* directory with test YANG modules */
-#define NP_TEST_MODULE_DIR "/home/netconf/netopeer2-1/tests/modules"
+#define NP_TEST_MODULE_DIR "/home/netconf/netopeer2/tests/modules"
 
 /* sysrepo SHM prefix */
 #define NP_SR_SHM_PREFIX "_tests_np_"

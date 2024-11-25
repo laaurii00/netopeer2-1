@@ -249,14 +249,14 @@ tests/CMakeFiles/test_url.dir/np2_test.c.o: ../tests/np2_test.c \
   /usr/local/include/libyang/set.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
   /usr/local/include/sysrepo.h \
   /usr/local/include/sysrepo_types.h \
@@ -452,14 +452,14 @@ tests/CMakeFiles/test_url.dir/test_url.c.o: ../tests/test_url.c \
   /usr/local/include/libnetconf2/session_client.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
   /usr/local/include/sysrepo/netconf_acm.h \
   /usr/local/include/sysrepo.h \
@@ -534,7 +534,7 @@ tests/np2_test_config.h:
 
 /usr/include/rpc/netdb.h:
 
-/usr/include/libssh/libssh_version.h:
+/usr/local/include/libssh/libssh_version.h:
 
 /usr/local/include/libyang/set.h:
 
@@ -624,8 +624,6 @@ tests/np2_test_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/libssh/libssh.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/features-time64.h:
@@ -638,13 +636,13 @@ tests/np2_test_config.h:
 
 /usr/include/stdlib.h:
 
+/usr/local/include/libssh/libssh.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/libssh/legacy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
@@ -729,6 +727,8 @@ tests/np2_test_config.h:
 /usr/local/include/libnetconf2/log.h:
 
 /usr/include/signal.h:
+
+/usr/local/include/libssh/legacy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 

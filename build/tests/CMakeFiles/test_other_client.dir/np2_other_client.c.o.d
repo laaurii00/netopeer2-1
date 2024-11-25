@@ -1,5 +1,5 @@
 tests/CMakeFiles/test_other_client.dir/np2_other_client.c.o: \
- /home/netconf/netopeer2-1/tests/np2_other_client.c \
+ /home/netconf/netopeer2/tests/np2_other_client.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -92,4 +92,4 @@ tests/CMakeFiles/test_other_client.dir/np2_other_client.c.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /usr/local/include/libnetconf2/netconf.h \
- /home/netconf/netopeer2-1/tests/np2_other_client.h
+ /home/netconf/netopeer2/tests/np2_other_client.h

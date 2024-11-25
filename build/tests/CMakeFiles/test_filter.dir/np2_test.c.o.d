@@ -1,6 +1,6 @@
 tests/CMakeFiles/test_filter.dir/np2_test.c.o: \
- /home/netconf/netopeer2-1/tests/np2_test.c /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/tests/np2_test.h /usr/include/string.h \
+ /home/netconf/netopeer2/tests/np2_test.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/tests/np2_test.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -114,12 +114,14 @@ tests/CMakeFiles/test_filter.dir/np2_test.c.o: \
  /usr/local/include/libyang/printer_schema.h \
  /usr/local/include/libyang/set.h \
  /usr/local/include/libnetconf2/messages_client.h \
- /usr/local/include/libnetconf2/session.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libnetconf2/session.h \
+ /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
  /usr/local/include/libnetconf2/session_client_ch.h \
  /usr/local/include/sysrepo.h /usr/local/include/sysrepo_types.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -161,5 +163,4 @@ tests/CMakeFiles/test_filter.dir/np2_test.c.o: \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/local/include/sysrepo/netconf_acm.h /usr/local/include/sysrepo.h \
- /home/netconf/netopeer2-1/tests/np2_other_client.h \
- /home/netconf/netopeer2-1/build/tests/np2_test_config.h
+ /home/netconf/netopeer2/tests/np2_other_client.h np2_test_config.h

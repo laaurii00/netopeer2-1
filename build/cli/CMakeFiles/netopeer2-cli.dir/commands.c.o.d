@@ -1,5 +1,5 @@
 cli/CMakeFiles/netopeer2-cli.dir/commands.c.o: \
- /home/netconf/netopeer2-1/cli/commands.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/cli/commands.c /usr/include/stdc-predef.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -140,46 +140,53 @@ cli/CMakeFiles/netopeer2-cli.dir/commands.c.o: \
  /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/session_client.h \
  /usr/local/include/libnetconf2/messages_client.h \
- /usr/local/include/libnetconf2/session.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libnetconf2/session.h \
+ /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
  /usr/local/include/libnetconf2/session_client_ch.h \
- /usr/include/openssl/pem.h /usr/include/openssl/macros.h \
- /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
- /usr/include/x86_64-linux-gnu/openssl/configuration.h \
- /usr/include/openssl/opensslv.h /usr/include/openssl/e_os2.h \
- /usr/include/openssl/bio.h /usr/include/openssl/crypto.h \
- /usr/include/openssl/safestack.h /usr/include/openssl/stack.h \
- /usr/include/openssl/types.h /usr/include/openssl/cryptoerr.h \
- /usr/include/openssl/symhacks.h /usr/include/openssl/cryptoerr_legacy.h \
- /usr/include/openssl/core.h /usr/include/openssl/bioerr.h \
- /usr/include/openssl/evp.h /usr/include/openssl/core_dispatch.h \
- /usr/include/openssl/evperr.h /usr/include/openssl/params.h \
- /usr/include/openssl/bn.h /usr/include/openssl/bnerr.h \
- /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
- /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
- /usr/include/openssl/objectserr.h /usr/include/openssl/x509.h \
- /usr/include/openssl/buffer.h /usr/include/openssl/buffererr.h \
- /usr/include/openssl/ec.h /usr/include/openssl/ecerr.h \
- /usr/include/openssl/rsa.h /usr/include/openssl/rsaerr.h \
- /usr/include/openssl/dsa.h /usr/include/openssl/dh.h \
- /usr/include/openssl/dherr.h /usr/include/openssl/dsaerr.h \
- /usr/include/openssl/sha.h /usr/include/openssl/x509err.h \
- /usr/include/openssl/x509_vfy.h /usr/include/openssl/lhash.h \
- /usr/include/openssl/pkcs7.h /usr/include/openssl/pkcs7err.h \
- /usr/include/openssl/ocsp.h /usr/include/openssl/http.h \
- /usr/include/openssl/conf.h /usr/include/openssl/conferr.h \
- /usr/include/openssl/conftypes.h /usr/include/openssl/x509v3.h \
- /usr/include/openssl/x509v3err.h /usr/include/openssl/ocsperr.h \
- /usr/include/openssl/pemerr.h /home/netconf/netopeer2-1/cli/commands.h \
- /home/netconf/netopeer2-1/build/cli/cli_version.h \
- /home/netconf/netopeer2-1/build/compat/compat.h \
+ /usr/local/include/openssl/pem.h /usr/local/include/openssl/macros.h \
+ /usr/local/include/openssl/opensslconf.h \
+ /usr/local/include/openssl/configuration.h \
+ /usr/local/include/openssl/opensslv.h /usr/local/include/openssl/e_os2.h \
+ /usr/local/include/openssl/bio.h /usr/local/include/openssl/crypto.h \
+ /usr/local/include/openssl/safestack.h \
+ /usr/local/include/openssl/stack.h /usr/local/include/openssl/types.h \
+ /usr/local/include/openssl/cryptoerr.h \
+ /usr/local/include/openssl/symhacks.h \
+ /usr/local/include/openssl/cryptoerr_legacy.h \
+ /usr/local/include/openssl/core.h /usr/local/include/openssl/bioerr.h \
+ /usr/local/include/openssl/evp.h \
+ /usr/local/include/openssl/core_dispatch.h \
+ /usr/local/include/openssl/evperr.h /usr/local/include/openssl/params.h \
+ /usr/local/include/openssl/bn.h /usr/local/include/openssl/bnerr.h \
+ /usr/local/include/openssl/objects.h \
+ /usr/local/include/openssl/obj_mac.h /usr/local/include/openssl/asn1.h \
+ /usr/local/include/openssl/asn1err.h \
+ /usr/local/include/openssl/objectserr.h \
+ /usr/local/include/openssl/x509.h /usr/local/include/openssl/buffer.h \
+ /usr/local/include/openssl/buffererr.h /usr/local/include/openssl/ec.h \
+ /usr/local/include/openssl/ecerr.h /usr/local/include/openssl/rsa.h \
+ /usr/local/include/openssl/rsaerr.h /usr/local/include/openssl/dsa.h \
+ /usr/local/include/openssl/dh.h /usr/local/include/openssl/dherr.h \
+ /usr/local/include/openssl/dsaerr.h /usr/local/include/openssl/sha.h \
+ /usr/local/include/openssl/x509err.h \
+ /usr/local/include/openssl/x509_vfy.h /usr/local/include/openssl/lhash.h \
+ /usr/local/include/openssl/pkcs7.h /usr/local/include/openssl/pkcs7err.h \
+ /usr/local/include/openssl/http.h /usr/local/include/openssl/conf.h \
+ /usr/local/include/openssl/conferr.h \
+ /usr/local/include/openssl/conftypes.h \
+ /usr/local/include/openssl/pemerr.h /usr/local/include/openssl/x509v3.h \
+ /usr/local/include/openssl/x509v3err.h \
+ /home/netconf/netopeer2/cli/commands.h cli_version.h \
+ /home/netconf/netopeer2/build/compat/compat.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
- /home/netconf/netopeer2-1/cli/completion.h \
- /home/netconf/netopeer2-1/cli/linenoise/linenoise.h \
- /home/netconf/netopeer2-1/cli/configuration.h /usr/include/dirent.h \
+ /home/netconf/netopeer2/cli/completion.h \
+ /home/netconf/netopeer2/cli/linenoise/linenoise.h \
+ /home/netconf/netopeer2/cli/configuration.h /usr/include/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h

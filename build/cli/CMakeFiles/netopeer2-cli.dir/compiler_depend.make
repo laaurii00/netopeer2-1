@@ -281,68 +281,66 @@ cli/CMakeFiles/netopeer2-cli.dir/commands.c.o: ../cli/commands.c \
   /usr/local/include/libnetconf2/session_client.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
-  /usr/include/openssl/pem.h \
-  /usr/include/openssl/macros.h \
-  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
-  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
-  /usr/include/openssl/opensslv.h \
-  /usr/include/openssl/e_os2.h \
-  /usr/include/openssl/bio.h \
-  /usr/include/openssl/crypto.h \
-  /usr/include/openssl/safestack.h \
-  /usr/include/openssl/stack.h \
-  /usr/include/openssl/types.h \
-  /usr/include/openssl/cryptoerr.h \
-  /usr/include/openssl/symhacks.h \
-  /usr/include/openssl/cryptoerr_legacy.h \
-  /usr/include/openssl/core.h \
-  /usr/include/openssl/bioerr.h \
-  /usr/include/openssl/evp.h \
-  /usr/include/openssl/core_dispatch.h \
-  /usr/include/openssl/evperr.h \
-  /usr/include/openssl/params.h \
-  /usr/include/openssl/bn.h \
-  /usr/include/openssl/bnerr.h \
-  /usr/include/openssl/objects.h \
-  /usr/include/openssl/obj_mac.h \
-  /usr/include/openssl/asn1.h \
-  /usr/include/openssl/asn1err.h \
-  /usr/include/openssl/objectserr.h \
-  /usr/include/openssl/x509.h \
-  /usr/include/openssl/buffer.h \
-  /usr/include/openssl/buffererr.h \
-  /usr/include/openssl/ec.h \
-  /usr/include/openssl/ecerr.h \
-  /usr/include/openssl/rsa.h \
-  /usr/include/openssl/rsaerr.h \
-  /usr/include/openssl/dsa.h \
-  /usr/include/openssl/dh.h \
-  /usr/include/openssl/dherr.h \
-  /usr/include/openssl/dsaerr.h \
-  /usr/include/openssl/sha.h \
-  /usr/include/openssl/x509err.h \
-  /usr/include/openssl/x509_vfy.h \
-  /usr/include/openssl/lhash.h \
-  /usr/include/openssl/pkcs7.h \
-  /usr/include/openssl/pkcs7err.h \
-  /usr/include/openssl/ocsp.h \
-  /usr/include/openssl/http.h \
-  /usr/include/openssl/conf.h \
-  /usr/include/openssl/conferr.h \
-  /usr/include/openssl/conftypes.h \
-  /usr/include/openssl/x509v3.h \
-  /usr/include/openssl/x509v3err.h \
-  /usr/include/openssl/ocsperr.h \
-  /usr/include/openssl/pemerr.h \
+  /usr/local/include/openssl/pem.h \
+  /usr/local/include/openssl/macros.h \
+  /usr/local/include/openssl/opensslconf.h \
+  /usr/local/include/openssl/configuration.h \
+  /usr/local/include/openssl/opensslv.h \
+  /usr/local/include/openssl/e_os2.h \
+  /usr/local/include/openssl/bio.h \
+  /usr/local/include/openssl/crypto.h \
+  /usr/local/include/openssl/safestack.h \
+  /usr/local/include/openssl/stack.h \
+  /usr/local/include/openssl/types.h \
+  /usr/local/include/openssl/cryptoerr.h \
+  /usr/local/include/openssl/symhacks.h \
+  /usr/local/include/openssl/cryptoerr_legacy.h \
+  /usr/local/include/openssl/core.h \
+  /usr/local/include/openssl/bioerr.h \
+  /usr/local/include/openssl/evp.h \
+  /usr/local/include/openssl/core_dispatch.h \
+  /usr/local/include/openssl/evperr.h \
+  /usr/local/include/openssl/params.h \
+  /usr/local/include/openssl/bn.h \
+  /usr/local/include/openssl/bnerr.h \
+  /usr/local/include/openssl/objects.h \
+  /usr/local/include/openssl/obj_mac.h \
+  /usr/local/include/openssl/asn1.h \
+  /usr/local/include/openssl/asn1err.h \
+  /usr/local/include/openssl/objectserr.h \
+  /usr/local/include/openssl/x509.h \
+  /usr/local/include/openssl/buffer.h \
+  /usr/local/include/openssl/buffererr.h \
+  /usr/local/include/openssl/ec.h \
+  /usr/local/include/openssl/ecerr.h \
+  /usr/local/include/openssl/rsa.h \
+  /usr/local/include/openssl/rsaerr.h \
+  /usr/local/include/openssl/dsa.h \
+  /usr/local/include/openssl/dh.h \
+  /usr/local/include/openssl/dherr.h \
+  /usr/local/include/openssl/dsaerr.h \
+  /usr/local/include/openssl/sha.h \
+  /usr/local/include/openssl/x509err.h \
+  /usr/local/include/openssl/x509_vfy.h \
+  /usr/local/include/openssl/lhash.h \
+  /usr/local/include/openssl/pkcs7.h \
+  /usr/local/include/openssl/pkcs7err.h \
+  /usr/local/include/openssl/http.h \
+  /usr/local/include/openssl/conf.h \
+  /usr/local/include/openssl/conferr.h \
+  /usr/local/include/openssl/conftypes.h \
+  /usr/local/include/openssl/pemerr.h \
+  /usr/local/include/openssl/x509v3.h \
+  /usr/local/include/openssl/x509v3err.h \
   ../cli/commands.h \
   cli/cli_version.h \
   compat/compat.h \
@@ -538,12 +536,12 @@ cli/CMakeFiles/netopeer2-cli.dir/completion.c.o: ../cli/completion.c \
   /usr/local/include/libyang/set.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
   ../cli/commands.h \
   cli/cli_version.h \
@@ -722,14 +720,14 @@ cli/CMakeFiles/netopeer2-cli.dir/configuration.c.o: ../cli/configuration.c \
   /usr/local/include/libnetconf2/session_client.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
   ../cli/commands.h \
   cli/cli_version.h \
@@ -1056,12 +1054,12 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
   /usr/local/include/libnetconf2/session_client.h \
   /usr/local/include/libnetconf2/messages_client.h \
   /usr/local/include/libnetconf2/session.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
+  /usr/local/include/libssh/legacy.h \
   /usr/local/include/libnetconf2/session_client_ch.h \
   ../cli/commands.h \
   cli/cli_version.h \
@@ -1084,8 +1082,6 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/termios-misc.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
-
 /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
@@ -1096,10 +1092,6 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios.h:
-
-/usr/include/termios.h:
-
 /usr/include/asm-generic/ioctl.h:
 
 /usr/include/asm-generic/ioctls.h:
@@ -1107,8 +1099,6 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
-
-../cli/linenoise/linenoise.c:
 
 ../cli/configuration.c:
 
@@ -1118,19 +1108,11 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/openssl/ec.h:
-
-/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/linux/stat.h:
-
-/usr/include/openssl/evperr.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -1141,10 +1123,6 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 /usr/local/include/libyang/out.h:
 
 /usr/local/include/libnetconf2/session.h:
-
-/usr/include/openssl/cryptoerr_legacy.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
 /usr/include/assert.h:
 
@@ -1159,8 +1137,6 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
@@ -1206,7 +1182,15 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/local/include/libnetconf2/netconf.h:
 
+../cli/linenoise/linenoise.c:
+
+/usr/local/include/openssl/stack.h:
+
 /usr/local/include/libnetconf2/messages_client.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/local/include/openssl/x509.h:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
@@ -1218,25 +1202,27 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/openssl/dh.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/ctype.h:
 
+/usr/include/x86_64-linux-gnu/bits/termios.h:
+
+/usr/local/include/openssl/crypto.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/getopt.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_ext.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/openssl/params.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/openssl/conferr.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -1246,25 +1232,39 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/pcre2.h:
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/local/include/openssl/obj_mac.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
+
+/usr/local/include/libssh/legacy.h:
+
+/usr/local/include/openssl/dsaerr.h:
+
 /usr/include/strings.h:
 
 /usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
 
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/local/include/openssl/pkcs7err.h:
+
+/usr/include/pcre2.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -1274,11 +1274,17 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/pthread.h:
 
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
+compat/compat.h:
+
 /usr/include/asm-generic/socket.h:
+
+/usr/local/include/openssl/e_os2.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -1286,25 +1292,21 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/openssl/ocsp.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/local/include/openssl/macros.h:
 
 /usr/include/fcntl.h:
 
-/usr/include/openssl/pkcs7err.h:
+/usr/local/include/openssl/opensslconf.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/openssl/core_dispatch.h:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/termios.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/local/include/openssl/x509v3err.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1312,17 +1314,17 @@ cli/CMakeFiles/netopeer2-cli.dir/main.c.o: ../cli/main.c \
 
 /usr/include/asm-generic/bitsperlong.h:
 
-compat/compat.h:
-
-/usr/include/openssl/pem.h:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 ../cli/commands.c:
 
 /usr/include/x86_64-linux-gnu/sys/times.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/local/include/openssl/evp.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
@@ -1331,8 +1333,6 @@ compat/compat.h:
 /usr/include/stdint.h:
 
 /usr/include/endian.h:
-
-/usr/include/openssl/dsaerr.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
@@ -1346,11 +1346,9 @@ compat/compat.h:
 
 /usr/include/asm-generic/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/openssl/opensslv.h:
-
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/local/include/libssh/libssh.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -1364,19 +1362,23 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
-/usr/include/openssl/pemerr.h:
-
 /usr/include/pwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/local/include/openssl/params.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/openssl/dsa.h:
+/usr/local/include/openssl/conf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/local/include/openssl/conftypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -1384,21 +1386,17 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/openssl/core.h:
-
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/openssl/objects.h:
-
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/local/include/openssl/objectserr.h:
+
+/usr/local/include/openssl/x509err.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h:
-
-/usr/include/openssl/buffer.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -1410,6 +1408,10 @@ compat/compat.h:
 
 /usr/local/include/libyang/plugins.h:
 
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/local/include/openssl/cryptoerr.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
@@ -1420,8 +1422,6 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/openssl/macros.h:
-
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -1430,23 +1430,19 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
-
-/usr/include/openssl/asn1.h:
+/usr/local/include/openssl/x509v3.h:
 
 /usr/include/features-time64.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
-/usr/include/openssl/buffererr.h:
+/usr/local/include/openssl/dh.h:
 
 /usr/include/linux/types.h:
 
 /usr/local/include/libyang/tree_schema.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/openssl/x509_vfy.h:
 
 /usr/include/limits.h:
 
@@ -1456,11 +1452,7 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/openssl/bnerr.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/openssl/dherr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -1474,8 +1466,6 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/openssl/x509err.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -1484,11 +1474,11 @@ compat/compat.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
-/usr/include/linux/posix_types.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/local/include/libyang/plugins_exts.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/local/include/libyang/tree_data.h:
 
@@ -1504,15 +1494,9 @@ compat/compat.h:
 
 /usr/local/include/libyang/ly_config.h:
 
-/usr/include/libssh/libssh.h:
-
-/usr/include/openssl/e_os2.h:
-
 /usr/local/include/libyang/parser_schema.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/openssl/conftypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
@@ -1520,21 +1504,25 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/asm/sockios.h:
 
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/local/include/openssl/rsa.h:
+
+/usr/local/include/openssl/dherr.h:
+
+/usr/include/asm-generic/sockios.h:
+
 /usr/local/include/libyang/in.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/local/include/libyang/tree.h:
 
-/usr/include/libssh/legacy.h:
+/usr/local/include/libyang/dict.h:
 
-/usr/include/openssl/evp.h:
+/usr/local/include/openssl/core.h:
 
 /usr/local/include/libyang/metadata.h:
-
-/usr/include/getopt.h:
-
-/usr/include/openssl/obj_mac.h:
 
 ../cli/configuration.h:
 
@@ -1543,6 +1531,10 @@ compat/compat.h:
 /usr/local/include/libyang/tree_edit.h:
 
 /usr/local/include/libyang/printer_data.h:
+
+/usr/local/include/openssl/cryptoerr_legacy.h:
+
+/usr/local/include/openssl/bnerr.h:
 
 ../cli/completion.c:
 
@@ -1564,13 +1556,9 @@ compat/compat.h:
 
 /usr/local/include/libnetconf2/session_client.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/local/include/libssh/libssh_version.h:
 
-/usr/include/libssh/libssh_version.h:
-
-/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
-
-/usr/include/rpc/netdb.h:
+/usr/local/include/openssl/pkcs7.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
@@ -1582,61 +1570,69 @@ compat/compat.h:
 
 /usr/local/include/libnetconf2/session_client_ch.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+/usr/local/include/openssl/pem.h:
 
-/usr/include/x86_64-linux-gnu/openssl/configuration.h:
+/usr/local/include/openssl/configuration.h:
 
-/usr/include/openssl/bio.h:
+/usr/local/include/openssl/bn.h:
 
-/usr/include/openssl/crypto.h:
+/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
 
-/usr/local/include/libyang/dict.h:
+/usr/local/include/openssl/opensslv.h:
 
-/usr/include/openssl/safestack.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
-/usr/include/openssl/stack.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/local/include/openssl/bio.h:
+
+/usr/local/include/openssl/safestack.h:
+
+/usr/local/include/openssl/types.h:
+
+/usr/local/include/openssl/symhacks.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/local/include/openssl/bioerr.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/local/include/openssl/core_dispatch.h:
+
+/usr/local/include/openssl/asn1err.h:
+
+/usr/local/include/openssl/rsaerr.h:
+
+/usr/local/include/openssl/evperr.h:
+
+/usr/local/include/openssl/pemerr.h:
+
+/usr/local/include/openssl/asn1.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/local/include/openssl/buffererr.h:
+
+/usr/local/include/openssl/x509_vfy.h:
+
+/usr/local/include/openssl/ec.h:
+
+/usr/local/include/openssl/objects.h:
+
+/usr/local/include/openssl/ecerr.h:
+
+/usr/local/include/openssl/dsa.h:
+
+/usr/local/include/openssl/sha.h:
+
+/usr/local/include/openssl/lhash.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/openssl/types.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/openssl/cryptoerr.h:
-
-/usr/include/openssl/symhacks.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/openssl/bioerr.h:
-
-/usr/include/openssl/lhash.h:
-
-/usr/include/openssl/bn.h:
-
-/usr/include/openssl/rsa.h:
-
-/usr/include/openssl/ecerr.h:
-
-/usr/include/openssl/rsaerr.h:
-
-/usr/include/openssl/pkcs7.h:
-
-/usr/include/openssl/conf.h:
-
-/usr/include/openssl/conferr.h:
-
-/usr/include/openssl/x509v3.h:
-
-/usr/include/openssl/x509.h:
-
-/usr/include/openssl/http.h:
-
-/usr/include/openssl/objectserr.h:
-
-/usr/include/openssl/x509v3err.h:
-
-/usr/include/openssl/ocsperr.h:
+/usr/local/include/openssl/http.h:
 
 ../cli/commands.h:
 
@@ -1650,6 +1646,8 @@ cli/cli_version.h:
 
 /usr/include/dirent.h:
 
+/usr/local/include/openssl/buffer.h:
+
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -1658,12 +1656,8 @@ cli/cli_version.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
-/usr/include/openssl/asn1err.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/ioctls.h:
-
-/usr/include/openssl/sha.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:

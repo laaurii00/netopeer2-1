@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/netconf/netopeer2-1/build/compat -I/home/netconf/netopeer2-1/build -I/home/netconf/netopeer2-1/build/cli
+C_INCLUDES = -I/home/netconf/netopeer2/build/compat -I/home/netconf/netopeer2/build -I/home/netconf/netopeer2/build/cli
 
 C_FLAGS = -g -O0  -Wall -Wextra -std=c99 -DHAVE_MKSTEMPS -g
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netconf/netopeer2-1
+CMAKE_SOURCE_DIR = /home/netconf/netopeer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netconf/netopeer2-1/build
+CMAKE_BINARY_DIR = /home/netconf/netopeer2/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test_parallel_sessions.dir/depend.make
@@ -72,44 +72,44 @@ include tests/CMakeFiles/test_parallel_sessions.dir/flags.make
 tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o: tests/CMakeFiles/test_parallel_sessions.dir/flags.make
 tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o: ../tests/np2_test.c
 tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o: tests/CMakeFiles/test_parallel_sessions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o -MF CMakeFiles/test_parallel_sessions.dir/np2_test.c.o.d -o CMakeFiles/test_parallel_sessions.dir/np2_test.c.o -c /home/netconf/netopeer2-1/tests/np2_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o"
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.o -MF CMakeFiles/test_parallel_sessions.dir/np2_test.c.o.d -o CMakeFiles/test_parallel_sessions.dir/np2_test.c.o -c /home/netconf/netopeer2/tests/np2_test.c
 
 tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_parallel_sessions.dir/np2_test.c.i"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2-1/tests/np2_test.c > CMakeFiles/test_parallel_sessions.dir/np2_test.c.i
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2/tests/np2_test.c > CMakeFiles/test_parallel_sessions.dir/np2_test.c.i
 
 tests/CMakeFiles/test_parallel_sessions.dir/np2_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_parallel_sessions.dir/np2_test.c.s"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2-1/tests/np2_test.c -o CMakeFiles/test_parallel_sessions.dir/np2_test.c.s
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2/tests/np2_test.c -o CMakeFiles/test_parallel_sessions.dir/np2_test.c.s
 
 tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o: tests/CMakeFiles/test_parallel_sessions.dir/flags.make
 tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o: ../tests/np2_other_client.c
 tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o: tests/CMakeFiles/test_parallel_sessions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o -MF CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o.d -o CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o -c /home/netconf/netopeer2-1/tests/np2_other_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o"
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o -MF CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o.d -o CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.o -c /home/netconf/netopeer2/tests/np2_other_client.c
 
 tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.i"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2-1/tests/np2_other_client.c > CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.i
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2/tests/np2_other_client.c > CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.i
 
 tests/CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.s"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2-1/tests/np2_other_client.c -o CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.s
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2/tests/np2_other_client.c -o CMakeFiles/test_parallel_sessions.dir/np2_other_client.c.s
 
 tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o: tests/CMakeFiles/test_parallel_sessions.dir/flags.make
 tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o: ../tests/test_parallel_sessions.c
 tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o: tests/CMakeFiles/test_parallel_sessions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o -MF CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o.d -o CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o -c /home/netconf/netopeer2-1/tests/test_parallel_sessions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o"
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o -MF CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o.d -o CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.o -c /home/netconf/netopeer2/tests/test_parallel_sessions.c
 
 tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.i"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2-1/tests/test_parallel_sessions.c > CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.i
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2/tests/test_parallel_sessions.c > CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.i
 
 tests/CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.s"
-	cd /home/netconf/netopeer2-1/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2-1/tests/test_parallel_sessions.c -o CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.s
+	cd /home/netconf/netopeer2/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2/tests/test_parallel_sessions.c -o CMakeFiles/test_parallel_sessions.dir/test_parallel_sessions.c.s
 
 # Object files for target test_parallel_sessions
 test_parallel_sessions_OBJECTS = \
@@ -129,18 +129,18 @@ tests/test_parallel_sessions: /usr/local/lib/libnetconf2.so
 tests/test_parallel_sessions: /usr/local/lib/libyang.so
 tests/test_parallel_sessions: /usr/local/lib/libsysrepo.so
 tests/test_parallel_sessions: tests/CMakeFiles/test_parallel_sessions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable test_parallel_sessions"
-	cd /home/netconf/netopeer2-1/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_parallel_sessions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable test_parallel_sessions"
+	cd /home/netconf/netopeer2/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_parallel_sessions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test_parallel_sessions.dir/build: tests/test_parallel_sessions
 .PHONY : tests/CMakeFiles/test_parallel_sessions.dir/build
 
 tests/CMakeFiles/test_parallel_sessions.dir/clean:
-	cd /home/netconf/netopeer2-1/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_parallel_sessions.dir/cmake_clean.cmake
+	cd /home/netconf/netopeer2/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_parallel_sessions.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_parallel_sessions.dir/clean
 
 tests/CMakeFiles/test_parallel_sessions.dir/depend:
-	cd /home/netconf/netopeer2-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2-1 /home/netconf/netopeer2-1/tests /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build/tests /home/netconf/netopeer2-1/build/tests/CMakeFiles/test_parallel_sessions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/netconf/netopeer2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2 /home/netconf/netopeer2/tests /home/netconf/netopeer2/build /home/netconf/netopeer2/build/tests /home/netconf/netopeer2/build/tests/CMakeFiles/test_parallel_sessions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test_parallel_sessions.dir/depend
 

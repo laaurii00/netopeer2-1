@@ -2205,6 +2205,8 @@ cmd_connect_listen_tls(struct arglist *cmd, int is_connect)
     struct dirent *d;
     int c, n, timeout = 0, ret = EXIT_FAILURE;
     char *cert = NULL, *key = NULL, *trusted_dir = NULL;
+    cert="/home/netconf/netopeer2/example_configuration_PQC/certs/client.crt";
+    key="/home/netconf/netopeer2/example_configuration_PQC/certs/client.key";
     unsigned short port = 0;
     int option_index = 0;
     struct option long_options[] = {

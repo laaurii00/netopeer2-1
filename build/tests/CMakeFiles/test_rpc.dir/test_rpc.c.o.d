@@ -1,5 +1,5 @@
 tests/CMakeFiles/test_rpc.dir/test_rpc.c.o: \
- /home/netconf/netopeer2-1/tests/test_rpc.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/tests/test_rpc.c /usr/include/stdc-predef.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -116,12 +116,14 @@ tests/CMakeFiles/test_rpc.dir/test_rpc.c.o: \
  /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/session_client.h \
  /usr/local/include/libnetconf2/messages_client.h \
- /usr/local/include/libnetconf2/session.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libnetconf2/session.h \
+ /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
  /usr/local/include/libnetconf2/session_client_ch.h \
  /usr/local/include/sysrepo/netconf_acm.h /usr/local/include/sysrepo.h \
  /usr/local/include/sysrepo_types.h /usr/include/fcntl.h \
@@ -136,5 +138,5 @@ tests/CMakeFiles/test_rpc.dir/test_rpc.c.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/netconf/netopeer2-1/tests/np2_test.h /usr/local/include/sysrepo.h \
- /home/netconf/netopeer2-1/build/tests/np2_test_config.h
+ /home/netconf/netopeer2/tests/np2_test.h /usr/local/include/sysrepo.h \
+ np2_test_config.h

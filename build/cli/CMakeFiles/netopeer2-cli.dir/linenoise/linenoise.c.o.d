@@ -1,7 +1,7 @@
 cli/CMakeFiles/netopeer2-cli.dir/linenoise/linenoise.c.o: \
- /home/netconf/netopeer2-1/cli/linenoise/linenoise.c \
+ /home/netconf/netopeer2/cli/linenoise/linenoise.c \
  /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/cli/linenoise/linenoise.h \
+ /home/netconf/netopeer2/cli/linenoise/linenoise.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/ctype.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

@@ -1,6 +1,6 @@
 CMakeFiles/serverobj.dir/src/netconf_nmda.c.o: \
- /home/netconf/netopeer2-1/src/netconf_nmda.c /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/src/netconf_nmda.h \
+ /home/netconf/netopeer2/src/netconf_nmda.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/src/netconf_nmda.h \
  /usr/local/include/libyang/libyang.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -121,7 +121,7 @@ CMakeFiles/serverobj.dir/src/netconf_nmda.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/assert.h \
  /usr/local/include/sysrepo/subscribed_notifications.h \
- /home/netconf/netopeer2-1/src/common.h /usr/include/pthread.h \
+ /home/netconf/netopeer2/src/common.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
@@ -134,16 +134,17 @@ CMakeFiles/serverobj.dir/src/netconf_nmda.c.o: \
  /usr/local/include/libnetconf2/session.h \
  /usr/local/include/libnetconf2/server_config.h \
  /usr/local/include/libnetconf2/session_server.h \
- /usr/include/libssh/callbacks.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libssh/callbacks.h /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
- /usr/include/libssh/server.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /usr/local/include/libssh/server.h \
  /usr/local/include/libnetconf2/session_server_ch.h \
- /home/netconf/netopeer2-1/build/compat/compat.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
- /home/netconf/netopeer2-1/build/config.h \
- /home/netconf/netopeer2-1/src/err_netconf.h \
- /home/netconf/netopeer2-1/src/log.h
+ /home/netconf/netopeer2/build/compat/compat.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h config.h \
+ /home/netconf/netopeer2/src/err_netconf.h \
+ /home/netconf/netopeer2/src/log.h

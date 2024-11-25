@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netconf/netopeer2-1
+CMAKE_SOURCE_DIR = /home/netconf/netopeer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netconf/netopeer2-1/build
+CMAKE_BINARY_DIR = /home/netconf/netopeer2/build
 
 # Utility rule file for cleancache.
 
@@ -67,9 +67,9 @@ include CMakeFiles/cleancache.dir/compiler_depend.make
 include CMakeFiles/cleancache.dir/progress.make
 
 CMakeFiles/cleancache:
-	cd /home/netconf/netopeer2-1 && make clean
-	cd /home/netconf/netopeer2-1 && find . -iname '*cmake*' -not -name CMakeLists.txt -exec rm -rf {} +
-	cd /home/netconf/netopeer2-1 && rm -rf Makefile Doxyfile
+	cd /home/netconf/netopeer2 && make clean
+	cd /home/netconf/netopeer2 && find . -iname '*cmake*' -not -name CMakeLists.txt -exec rm -rf {} +
+	cd /home/netconf/netopeer2 && rm -rf Makefile Doxyfile
 
 cleancache: CMakeFiles/cleancache
 cleancache: CMakeFiles/cleancache.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/cleancache.dir/clean:
 .PHONY : CMakeFiles/cleancache.dir/clean
 
 CMakeFiles/cleancache.dir/depend:
-	cd /home/netconf/netopeer2-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2-1 /home/netconf/netopeer2-1 /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build/CMakeFiles/cleancache.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/netconf/netopeer2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2 /home/netconf/netopeer2 /home/netconf/netopeer2/build /home/netconf/netopeer2/build /home/netconf/netopeer2/build/CMakeFiles/cleancache.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cleancache.dir/depend
 

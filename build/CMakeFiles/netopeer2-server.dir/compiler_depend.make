@@ -270,16 +270,17 @@ CMakeFiles/netopeer2-server.dir/src/main.c.o: ../src/main.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   /usr/local/include/sysrepo.h \
   /usr/local/include/sysrepo_types.h \
@@ -332,8 +333,6 @@ CMakeFiles/netopeer2-server.dir/src/main.c.o: ../src/main.c \
 
 /usr/include/systemd/sd-daemon.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
@@ -372,13 +371,17 @@ config.h:
 
 /usr/local/include/libnetconf2/session_server_ch.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
 /usr/include/x86_64-linux-gnu/bits/netdb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/rpc/netdb.h:
 
-/usr/include/libssh/libssh_version.h:
+/usr/local/include/libssh/libssh_version.h:
 
 /usr/local/include/libnetconf2/session_server.h:
 
@@ -410,6 +413,8 @@ config.h:
 
 /usr/include/asm-generic/sockios.h:
 
+/usr/local/include/libssh/server.h:
+
 /usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
@@ -439,6 +444,8 @@ config.h:
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/local/include/libssh/callbacks.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -528,6 +535,8 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
+/usr/local/include/libssh/libssh.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/asm-generic/posix_types.h:
@@ -555,8 +564,6 @@ config.h:
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/libssh/server.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -596,8 +603,6 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
-/usr/include/libssh/callbacks.h:
-
 /usr/include/sched.h:
 
 ../src/main.c:
@@ -608,11 +613,11 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/libssh/libssh.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/signal.h:
+
+/usr/local/include/libssh/legacy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -735,8 +740,6 @@ compat/compat.h:
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/usr/include/libssh/legacy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 

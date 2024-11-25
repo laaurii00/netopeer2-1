@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/netconf/netopeer2-1/tests/np2_other_client.c" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_other_client.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_other_client.c.o.d"
-  "/home/netconf/netopeer2-1/tests/np2_test.c" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_test.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_test.c.o.d"
-  "/home/netconf/netopeer2-1/tests/test_yang_push_advanced.c" "tests/CMakeFiles/test_yang_push_advanced.dir/test_yang_push_advanced.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/test_yang_push_advanced.c.o.d"
+  "/home/netconf/netopeer2/tests/np2_other_client.c" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_other_client.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_other_client.c.o.d"
+  "/home/netconf/netopeer2/tests/np2_test.c" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_test.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/np2_test.c.o.d"
+  "/home/netconf/netopeer2/tests/test_yang_push_advanced.c" "tests/CMakeFiles/test_yang_push_advanced.dir/test_yang_push_advanced.c.o" "gcc" "tests/CMakeFiles/test_yang_push_advanced.dir/test_yang_push_advanced.c.o.d"
   )
 
 # Targets to which this target links.

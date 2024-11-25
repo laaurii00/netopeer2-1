@@ -1,6 +1,6 @@
 CMakeFiles/netopeer2-server.dir/compat/compat.c.o: \
- /home/netconf/netopeer2-1/compat/compat.c /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/build/compat/compat.h /usr/include/alloca.h \
+ /home/netconf/netopeer2/compat/compat.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/build/compat/compat.h /usr/include/alloca.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \

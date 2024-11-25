@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netconf/netopeer2-1
+CMAKE_SOURCE_DIR = /home/netconf/netopeer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netconf/netopeer2-1/build
+CMAKE_BINARY_DIR = /home/netconf/netopeer2/build
 
 # Utility rule file for test_clean.
 
@@ -67,9 +67,9 @@ include tests/CMakeFiles/test_clean.dir/compiler_depend.make
 include tests/CMakeFiles/test_clean.dir/progress.make
 
 tests/CMakeFiles/test_clean:
-	cd /home/netconf/netopeer2-1/build/tests && scripts/kill_np_server.sh
-	cd /home/netconf/netopeer2-1/build/tests && rm -rf /dev/shm/_tests_np_*
-	cd /home/netconf/netopeer2-1/build/tests && rm -rf /home/netconf/netopeer2-1/build/repos
+	cd /home/netconf/netopeer2/build/tests && scripts/kill_np_server.sh
+	cd /home/netconf/netopeer2/build/tests && rm -rf /dev/shm/_tests_np_*
+	cd /home/netconf/netopeer2/build/tests && rm -rf /home/netconf/netopeer2/build/repos
 
 test_clean: tests/CMakeFiles/test_clean
 test_clean: tests/CMakeFiles/test_clean.dir/build.make
@@ -80,10 +80,10 @@ tests/CMakeFiles/test_clean.dir/build: test_clean
 .PHONY : tests/CMakeFiles/test_clean.dir/build
 
 tests/CMakeFiles/test_clean.dir/clean:
-	cd /home/netconf/netopeer2-1/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_clean.dir/cmake_clean.cmake
+	cd /home/netconf/netopeer2/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_clean.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_clean.dir/clean
 
 tests/CMakeFiles/test_clean.dir/depend:
-	cd /home/netconf/netopeer2-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2-1 /home/netconf/netopeer2-1/tests /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build/tests /home/netconf/netopeer2-1/build/tests/CMakeFiles/test_clean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/netconf/netopeer2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2 /home/netconf/netopeer2/tests /home/netconf/netopeer2/build /home/netconf/netopeer2/build/tests /home/netconf/netopeer2/build/tests/CMakeFiles/test_clean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test_clean.dir/depend
 

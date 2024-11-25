@@ -82,12 +82,14 @@ get_netconf_dir(void)
 void
 get_default_client_cert(char **cert, char **key)
 {
+    cert = strdup("/home/netconf/netopeer2/example_configuration_PQC/certs/client.crt");
+    key = strdup("/home/netconf/netopeer2/example_configuration_PQC/certs/client.key");
     char *netconf_dir;
     struct stat st;
     int ret;
 
-    assert(cert && !*cert);
-    assert(key && !*key);
+    assert(*cert != NULL);
+    assert(*key != NULL);
 
     if (!(netconf_dir = get_netconf_dir())) {
         return;

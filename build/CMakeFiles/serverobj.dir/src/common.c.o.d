@@ -1,7 +1,7 @@
 CMakeFiles/serverobj.dir/src/common.c.o: \
- /home/netconf/netopeer2-1/src/common.c /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/build/config.h /usr/include/assert.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /home/netconf/netopeer2/src/common.c /usr/include/stdc-predef.h config.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -137,13 +137,15 @@ CMakeFiles/serverobj.dir/src/common.c.o: \
  /usr/local/include/libnetconf2/session.h \
  /usr/local/include/libnetconf2/server_config.h \
  /usr/local/include/libnetconf2/session_server.h \
- /usr/include/libssh/callbacks.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libssh/callbacks.h /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
- /usr/include/libssh/server.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /usr/local/include/libssh/server.h \
  /usr/local/include/libnetconf2/session_server_ch.h \
  /usr/local/include/sysrepo/netconf_acm.h /usr/local/include/sysrepo.h \
  /usr/local/include/sysrepo_types.h /usr/include/fcntl.h \
@@ -158,9 +160,9 @@ CMakeFiles/serverobj.dir/src/common.c.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/netconf/netopeer2-1/src/common.h /usr/local/include/sysrepo.h \
- /home/netconf/netopeer2-1/build/compat/compat.h \
+ /home/netconf/netopeer2/src/common.h /usr/local/include/sysrepo.h \
+ /home/netconf/netopeer2/build/compat/compat.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
- /home/netconf/netopeer2-1/src/err_netconf.h \
- /home/netconf/netopeer2-1/src/log.h \
- /home/netconf/netopeer2-1/src/netconf_monitoring.h
+ /home/netconf/netopeer2/src/err_netconf.h \
+ /home/netconf/netopeer2/src/log.h \
+ /home/netconf/netopeer2/src/netconf_monitoring.h

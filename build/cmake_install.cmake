@@ -1,4 +1,4 @@
-# Install script for directory: /home/netconf/netopeer2-1
+# Install script for directory: /home/netconf/netopeer2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/share/yang/modules/netopeer2" TYPE DIRECTORY FILES "/home/netconf/netopeer2-1/modules/")
+  file(INSTALL DESTINATION "/usr/local/share/yang/modules/netopeer2" TYPE DIRECTORY FILES "/home/netconf/netopeer2/modules/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/share/netopeer2/scripts" TYPE DIRECTORY FILES "/home/netconf/netopeer2-1/scripts/" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "/usr/local/share/netopeer2/scripts" TYPE DIRECTORY FILES "/home/netconf/netopeer2/scripts/" USE_SOURCE_PERMISSIONS)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/netopeer2-server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/netconf/netopeer2-1/build/netopeer2-server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/netconf/netopeer2/build/netopeer2-server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/netopeer2-server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/netopeer2-server")
     file(RPATH_CHANGE
@@ -87,23 +87,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/netconf/netopeer2-1/doc/netopeer2-server.8")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/netconf/netopeer2/doc/netopeer2-server.8")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/systemd/system/netopeer2-server.service")
+   "/usr/local/lib/systemd/system/netopeer2-server.service")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/lib/systemd/system" TYPE FILE FILES "/home/netconf/netopeer2-1/build/netopeer2-server.service")
+  file(INSTALL DESTINATION "/usr/local/lib/systemd/system" TYPE FILE FILES "/home/netconf/netopeer2/build/netopeer2-server.service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/pam.d" TYPE FILE FILES "/home/netconf/netopeer2-1/pam/netopeer2.conf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/pam.d" TYPE FILE FILES "/home/netconf/netopeer2/pam/netopeer2.conf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -170,12 +170,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/netconf/netopeer2-1/build/tests/cmake_install.cmake")
+  include("/home/netconf/netopeer2/build/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/netconf/netopeer2-1/build/cli/cmake_install.cmake")
+  include("/home/netconf/netopeer2/build/cli/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -186,5 +186,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/netconf/netopeer2-1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/netconf/netopeer2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

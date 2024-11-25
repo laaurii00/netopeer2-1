@@ -164,16 +164,17 @@ CMakeFiles/serverobj.dir/src/common.c.o: ../src/common.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   /usr/local/include/sysrepo/netconf_acm.h \
   /usr/local/include/sysrepo.h \
@@ -367,16 +368,17 @@ CMakeFiles/serverobj.dir/src/err_netconf.c.o: ../src/err_netconf.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   compat/compat.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
@@ -510,9 +512,9 @@ CMakeFiles/serverobj.dir/src/log.c.o: ../src/log.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -526,8 +528,9 @@ CMakeFiles/serverobj.dir/src/log.c.o: ../src/log.c \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   /usr/local/include/sysrepo.h \
   /usr/local/include/sysrepo_types.h \
@@ -745,16 +748,17 @@ CMakeFiles/serverobj.dir/src/netconf.c.o: ../src/netconf.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   config.h \
   ../src/err_netconf.h \
@@ -924,16 +928,17 @@ CMakeFiles/serverobj.dir/src/netconf_confirmed_commit.c.o: ../src/netconf_confir
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   compat/compat.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
@@ -1111,9 +1116,9 @@ CMakeFiles/serverobj.dir/src/netconf_monitoring.c.o: ../src/netconf_monitoring.c
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1127,8 +1132,9 @@ CMakeFiles/serverobj.dir/src/netconf_monitoring.c.o: ../src/netconf_monitoring.c
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   /usr/local/include/sysrepo.h \
   /usr/local/include/sysrepo_types.h \
@@ -1319,16 +1325,17 @@ CMakeFiles/serverobj.dir/src/netconf_nmda.c.o: ../src/netconf_nmda.c \
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   compat/compat.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
@@ -1498,16 +1505,17 @@ CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o: ../src/netcon
   /usr/local/include/libnetconf2/session.h \
   /usr/local/include/libnetconf2/server_config.h \
   /usr/local/include/libnetconf2/session_server.h \
-  /usr/include/libssh/callbacks.h \
-  /usr/include/libssh/libssh.h \
-  /usr/include/libssh/libssh_version.h \
+  /usr/local/include/libssh/callbacks.h \
+  /usr/local/include/libssh/libssh.h \
+  /usr/local/include/libssh/libssh_version.h \
   /usr/include/netdb.h \
   /usr/include/rpc/netdb.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/libssh/legacy.h \
-  /usr/include/libssh/server.h \
+  /usr/local/include/libssh/legacy.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/local/include/libssh/server.h \
   /usr/local/include/libnetconf2/session_server_ch.h \
   compat/compat.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
@@ -1522,8 +1530,6 @@ CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o: ../src/netcon
 ../src/netconf_subscribed_notifications.h:
 
 ../src/netconf_nmda.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
@@ -1589,11 +1595,17 @@ CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o: ../src/netcon
 
 /usr/local/include/libnetconf2/session_server_ch.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
 /usr/include/x86_64-linux-gnu/bits/netdb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/rpc/netdb.h:
+
+/usr/local/include/libssh/libssh_version.h:
 
 /usr/local/include/libnetconf2/session_server.h:
 
@@ -1697,6 +1709,8 @@ CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o: ../src/netcon
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
+/usr/local/include/libssh/libssh.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -1771,6 +1785,8 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/local/include/libssh/callbacks.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/stdio.h:
@@ -1787,13 +1803,13 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/libssh/libssh.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/signal.h:
+
+/usr/local/include/libssh/legacy.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -1824,8 +1840,6 @@ compat/compat.h:
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/curl/urlapi.h:
-
-/usr/include/libssh/callbacks.h:
 
 /usr/include/sched.h:
 
@@ -1895,8 +1909,6 @@ compat/compat.h:
 
 /usr/include/x86_64-linux-gnu/curl/system.h:
 
-/usr/include/libssh/legacy.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
@@ -1921,6 +1933,8 @@ compat/compat.h:
 
 ../src/netconf_confirmed_commit.c:
 
+/usr/local/include/libssh/server.h:
+
 /usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 /usr/local/include/sysrepo/netconf_acm.h:
@@ -1942,8 +1956,6 @@ compat/compat.h:
 /usr/local/include/libyang/in.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
-
-/usr/include/libssh/server.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1986,8 +1998,6 @@ compat/compat.h:
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/curl/multi.h:
-
-/usr/include/libssh/libssh_version.h:
 
 /usr/include/x86_64-linux-gnu/curl/typecheck-gcc.h:
 

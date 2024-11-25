@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netconf/netopeer2-1
+CMAKE_SOURCE_DIR = /home/netconf/netopeer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netconf/netopeer2-1/build
+CMAKE_BINARY_DIR = /home/netconf/netopeer2/build
 
 # Utility rule file for uninstall.
 
@@ -67,9 +67,9 @@ include CMakeFiles/uninstall.dir/compiler_depend.make
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Removing netopeer2 modules from sysrepo..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Removing netopeer2 modules from sysrepo..."
 	/usr/local/share/netopeer2/scripts/remove.sh
-	/usr/bin/cmake -P /home/netconf/netopeer2-1/CMakeModules//uninstall.cmake
+	/usr/bin/cmake -P /home/netconf/netopeer2/CMakeModules//uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/netconf/netopeer2-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2-1 /home/netconf/netopeer2-1 /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/netconf/netopeer2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2 /home/netconf/netopeer2 /home/netconf/netopeer2/build /home/netconf/netopeer2/build /home/netconf/netopeer2/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

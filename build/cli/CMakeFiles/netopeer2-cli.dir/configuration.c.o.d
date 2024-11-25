@@ -1,5 +1,5 @@
 cli/CMakeFiles/netopeer2-cli.dir/configuration.c.o: \
- /home/netconf/netopeer2-1/cli/configuration.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/cli/configuration.c /usr/include/stdc-predef.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -130,21 +130,22 @@ cli/CMakeFiles/netopeer2-cli.dir/configuration.c.o: \
  /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/session_client.h \
  /usr/local/include/libnetconf2/messages_client.h \
- /usr/local/include/libnetconf2/session.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libnetconf2/session.h \
+ /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
  /usr/local/include/libnetconf2/session_client_ch.h \
- /home/netconf/netopeer2-1/cli/commands.h \
- /home/netconf/netopeer2-1/build/cli/cli_version.h \
- /home/netconf/netopeer2-1/build/compat/compat.h /usr/include/pthread.h \
+ /home/netconf/netopeer2/cli/commands.h cli_version.h \
+ /home/netconf/netopeer2/build/compat/compat.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
- /home/netconf/netopeer2-1/cli/configuration.h \
- /home/netconf/netopeer2-1/cli/linenoise/linenoise.h
+ /home/netconf/netopeer2/cli/configuration.h \
+ /home/netconf/netopeer2/cli/linenoise/linenoise.h

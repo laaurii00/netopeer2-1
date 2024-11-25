@@ -1,5 +1,5 @@
 tests/CMakeFiles/test_error.dir/test_error.c.o: \
- /home/netconf/netopeer2-1/tests/test_error.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/tests/test_error.c /usr/include/stdc-predef.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -124,18 +124,19 @@ tests/CMakeFiles/test_error.dir/test_error.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/local/include/sysrepo/error_format.h \
  /usr/local/include/sysrepo_types.h \
- /home/netconf/netopeer2-1/tests/np2_test.h \
- /usr/local/include/nc_client.h /usr/local/include/libnetconf2/netconf.h \
+ /home/netconf/netopeer2/tests/np2_test.h /usr/local/include/nc_client.h \
+ /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/log.h \
  /usr/local/include/libnetconf2/messages_client.h \
  /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/session_client.h \
  /usr/local/include/libnetconf2/messages_client.h \
- /usr/local/include/libnetconf2/session.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libnetconf2/session.h \
+ /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
- /usr/local/include/libnetconf2/session_client_ch.h \
- /home/netconf/netopeer2-1/build/tests/np2_test_config.h
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
+ /usr/local/include/libnetconf2/session_client_ch.h np2_test_config.h

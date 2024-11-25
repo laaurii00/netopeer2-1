@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-NP2_TEST_ROOT_DIR="/home/netconf/netopeer2-1/build/repos"
+NP2_TEST_ROOT_DIR="/home/netconf/netopeer2/build/repos"
 [ -z "$NP2_TEST_ROOT_DIR" ] &&
         echo "Expected an argument with to the test directory" &&
         exit 1

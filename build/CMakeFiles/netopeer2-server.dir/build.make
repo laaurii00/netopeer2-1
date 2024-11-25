@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netconf/netopeer2-1
+CMAKE_SOURCE_DIR = /home/netconf/netopeer2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netconf/netopeer2-1/build
+CMAKE_BINARY_DIR = /home/netconf/netopeer2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/netopeer2-server.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/netopeer2-server.dir/flags.make
 CMakeFiles/netopeer2-server.dir/src/main.c.o: CMakeFiles/netopeer2-server.dir/flags.make
 CMakeFiles/netopeer2-server.dir/src/main.c.o: ../src/main.c
 CMakeFiles/netopeer2-server.dir/src/main.c.o: CMakeFiles/netopeer2-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/netopeer2-server.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netopeer2-server.dir/src/main.c.o -MF CMakeFiles/netopeer2-server.dir/src/main.c.o.d -o CMakeFiles/netopeer2-server.dir/src/main.c.o -c /home/netconf/netopeer2-1/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/netopeer2-server.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netopeer2-server.dir/src/main.c.o -MF CMakeFiles/netopeer2-server.dir/src/main.c.o.d -o CMakeFiles/netopeer2-server.dir/src/main.c.o -c /home/netconf/netopeer2/src/main.c
 
 CMakeFiles/netopeer2-server.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/netopeer2-server.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2-1/src/main.c > CMakeFiles/netopeer2-server.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2/src/main.c > CMakeFiles/netopeer2-server.dir/src/main.c.i
 
 CMakeFiles/netopeer2-server.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/netopeer2-server.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2-1/src/main.c -o CMakeFiles/netopeer2-server.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2/src/main.c -o CMakeFiles/netopeer2-server.dir/src/main.c.s
 
 CMakeFiles/netopeer2-server.dir/compat/compat.c.o: CMakeFiles/netopeer2-server.dir/flags.make
 CMakeFiles/netopeer2-server.dir/compat/compat.c.o: ../compat/compat.c
 CMakeFiles/netopeer2-server.dir/compat/compat.c.o: CMakeFiles/netopeer2-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/netopeer2-server.dir/compat/compat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netopeer2-server.dir/compat/compat.c.o -MF CMakeFiles/netopeer2-server.dir/compat/compat.c.o.d -o CMakeFiles/netopeer2-server.dir/compat/compat.c.o -c /home/netconf/netopeer2-1/compat/compat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/netopeer2-server.dir/compat/compat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/netopeer2-server.dir/compat/compat.c.o -MF CMakeFiles/netopeer2-server.dir/compat/compat.c.o.d -o CMakeFiles/netopeer2-server.dir/compat/compat.c.o -c /home/netconf/netopeer2/compat/compat.c
 
 CMakeFiles/netopeer2-server.dir/compat/compat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/netopeer2-server.dir/compat/compat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2-1/compat/compat.c > CMakeFiles/netopeer2-server.dir/compat/compat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/netconf/netopeer2/compat/compat.c > CMakeFiles/netopeer2-server.dir/compat/compat.c.i
 
 CMakeFiles/netopeer2-server.dir/compat/compat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/netopeer2-server.dir/compat/compat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2-1/compat/compat.c -o CMakeFiles/netopeer2-server.dir/compat/compat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/netconf/netopeer2/compat/compat.c -o CMakeFiles/netopeer2-server.dir/compat/compat.c.s
 
 # Object files for target netopeer2-server
 netopeer2__server_OBJECTS = \
@@ -104,14 +104,14 @@ netopeer2__server_OBJECTS = \
 
 # External object files for target netopeer2-server
 netopeer2__server_EXTERNAL_OBJECTS = \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/common.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/netconf.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/netconf_monitoring.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/netconf_nmda.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/netconf_confirmed_commit.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/log.c.o" \
-"/home/netconf/netopeer2-1/build/CMakeFiles/serverobj.dir/src/err_netconf.c.o"
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/common.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/netconf.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/netconf_monitoring.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/netconf_nmda.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/netconf_subscribed_notifications.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/netconf_confirmed_commit.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/log.c.o" \
+"/home/netconf/netopeer2/build/CMakeFiles/serverobj.dir/src/err_netconf.c.o"
 
 netopeer2-server: CMakeFiles/netopeer2-server.dir/src/main.c.o
 netopeer2-server: CMakeFiles/netopeer2-server.dir/compat/compat.c.o
@@ -127,12 +127,12 @@ netopeer2-server: CMakeFiles/netopeer2-server.dir/build.make
 netopeer2-server: /usr/lib/x86_64-linux-gnu/libcurl.so
 netopeer2-server: /usr/lib/x86_64-linux-gnu/librt.a
 netopeer2-server: /usr/local/lib/libnetconf2.so
-netopeer2-server: /usr/lib/x86_64-linux-gnu/libssh.so
+netopeer2-server: /usr/local/lib/libssh.so
 netopeer2-server: /usr/lib/x86_64-linux-gnu/libsystemd.so
 netopeer2-server: /usr/local/lib/libyang.so
 netopeer2-server: /usr/local/lib/libsysrepo.so
 netopeer2-server: CMakeFiles/netopeer2-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/netconf/netopeer2-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable netopeer2-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/netconf/netopeer2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable netopeer2-server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netopeer2-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/netopeer2-server.dir/clean:
 .PHONY : CMakeFiles/netopeer2-server.dir/clean
 
 CMakeFiles/netopeer2-server.dir/depend:
-	cd /home/netconf/netopeer2-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2-1 /home/netconf/netopeer2-1 /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build /home/netconf/netopeer2-1/build/CMakeFiles/netopeer2-server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/netconf/netopeer2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netconf/netopeer2 /home/netconf/netopeer2 /home/netconf/netopeer2/build /home/netconf/netopeer2/build /home/netconf/netopeer2/build/CMakeFiles/netopeer2-server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/netopeer2-server.dir/depend
 

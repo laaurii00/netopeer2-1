@@ -1,6 +1,6 @@
 CMakeFiles/serverobj.dir/src/netconf.c.o: \
- /home/netconf/netopeer2-1/src/netconf.c /usr/include/stdc-predef.h \
- /home/netconf/netopeer2-1/src/netconf.h \
+ /home/netconf/netopeer2/src/netconf.c /usr/include/stdc-predef.h \
+ /home/netconf/netopeer2/src/netconf.h \
  /usr/local/include/libyang/libyang.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -119,7 +119,7 @@ CMakeFiles/serverobj.dir/src/netconf.c.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/netconf/netopeer2-1/build/compat/compat.h /usr/include/pthread.h \
+ /home/netconf/netopeer2/build/compat/compat.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
@@ -133,7 +133,7 @@ CMakeFiles/serverobj.dir/src/netconf.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/local/include/sysrepo/netconf_acm.h /usr/local/include/sysrepo.h \
  /usr/local/include/sysrepo/subscribed_notifications.h \
- /home/netconf/netopeer2-1/src/common.h /usr/local/include/nc_server.h \
+ /home/netconf/netopeer2/src/common.h /usr/local/include/nc_server.h \
  /usr/local/include/libnetconf2/netconf.h \
  /usr/local/include/libnetconf2/log.h \
  /usr/local/include/libnetconf2/messages_server.h \
@@ -141,16 +141,17 @@ CMakeFiles/serverobj.dir/src/netconf.c.o: \
  /usr/local/include/libnetconf2/session.h \
  /usr/local/include/libnetconf2/server_config.h \
  /usr/local/include/libnetconf2/session_server.h \
- /usr/include/libssh/callbacks.h /usr/include/libssh/libssh.h \
- /usr/include/libssh/libssh_version.h /usr/include/netdb.h \
+ /usr/local/include/libssh/callbacks.h /usr/local/include/libssh/libssh.h \
+ /usr/local/include/libssh/libssh_version.h /usr/include/netdb.h \
  /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/libssh/legacy.h \
- /usr/include/libssh/server.h \
- /usr/local/include/libnetconf2/session_server_ch.h \
- /home/netconf/netopeer2-1/build/config.h \
- /home/netconf/netopeer2-1/src/err_netconf.h \
- /home/netconf/netopeer2-1/src/log.h \
- /home/netconf/netopeer2-1/src/netconf_confirmed_commit.h \
- /home/netconf/netopeer2-1/src/netconf_monitoring.h
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /usr/local/include/libssh/legacy.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /usr/local/include/libssh/server.h \
+ /usr/local/include/libnetconf2/session_server_ch.h config.h \
+ /home/netconf/netopeer2/src/err_netconf.h \
+ /home/netconf/netopeer2/src/log.h \
+ /home/netconf/netopeer2/src/netconf_confirmed_commit.h \
+ /home/netconf/netopeer2/src/netconf_monitoring.h
