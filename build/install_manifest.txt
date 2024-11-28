@@ -13,6 +13,7 @@
 /usr/local/share/yang/modules/netopeer2/ietf-datastores@2018-02-14.yang
 /usr/local/share/yang/modules/netopeer2/ietf-yang-push@2019-09-09.yang
 /usr/local/share/yang/modules/netopeer2/ietf-netconf-nmda@2019-01-07.yang
+/usr/local/share/yang/modules/netopeer2/ietf-crypto-types@2023-12-28.yang
 /usr/local/share/netopeer2/scripts/setup.sh
 /usr/local/share/netopeer2/scripts/remove.sh
 /usr/local/share/netopeer2/scripts/merge_config.sh
