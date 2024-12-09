@@ -139,7 +139,8 @@ cli/CMakeFiles/netopeer2-cli.dir/configuration.c.o: \
  /usr/include/x86_64-linux-gnu/bits/netdb.h \
  /usr/local/include/libssh/legacy.h \
  /usr/local/include/libnetconf2/session_client_ch.h \
- /home/netconf/netopeer2/cli/commands.h cli_version.h \
+ /home/netconf/netopeer2/cli/commands.h \
+ /home/netconf/netopeer2/build/cli/cli_version.h \
  /home/netconf/netopeer2/build/compat/compat.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \

@@ -182,7 +182,8 @@ cli/CMakeFiles/netopeer2-cli.dir/commands.c.o: \
  /usr/local/include/openssl/conftypes.h \
  /usr/local/include/openssl/pemerr.h /usr/local/include/openssl/x509v3.h \
  /usr/local/include/openssl/x509v3err.h \
- /home/netconf/netopeer2/cli/commands.h cli_version.h \
+ /home/netconf/netopeer2/cli/commands.h \
+ /home/netconf/netopeer2/build/cli/cli_version.h \
  /home/netconf/netopeer2/build/compat/compat.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
  /home/netconf/netopeer2/cli/completion.h \
